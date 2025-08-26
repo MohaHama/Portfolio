@@ -2,10 +2,296 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mediaqueries.css">
 </head>
-<script src="index.js"></script>
 <body>
+<div class="background-image">
+    <nav id="desktop-nav">
+        <div class="logo">ZadehRaso</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#beats">Beats</a></li>
+                <li><a href="#collaborators">Collaborators</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <nav id="hamburger-nav">
+        <div class="logo">ZadehRaso</div>
+        <div id="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#beats" onclick="toggleMenu()">Beats</a></li>
+                <li><a href="#collaborators" onclick="toggleMenu()">Collaborators</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <div id="frontpage-text">
+        <h1 id="WelcomeTitle">
+            Your Next<br>
+            "Hit"<br>
+            Starts Here
+        </h1>
+        <div class="Welcome-button-frontpage">
+            <a href="#beats" class="button type--C">
+                <div class="button__line"></div>
+                <div class="button__line"></div>
+                <span class="button__text">FIND YOUR NEXT BEAT</span>
+            </a>
+        </div>
+    </div>
+    <div id="socials-container">
+        <a  href='https://x.com/ZadehRaso' target="_blank">
+            <img src="assets/XLogo.png" alt="My LinkedIn Profile" class="icon">
+        </a>
+        <a href='https://www.instagram.com/zadeh.raso/?igsh=djVqOW93cXIzNmc5&utm_source=qr#' target="_blank">
+            <img src="assets/InstaLogo.png" alt="My GitHub Profile" class="icon">
+        </a>
+    </div>
+</div>
+
+
+<!--beats section-->
+<section id="beats-section">
+    
+    <div class="tracks-container">
+            <div class="header-row">
+                <div class="header-left">
+                    <div class="h-title">Just dropped </div>
+                    <a  href='https://x.com/ZadehRaso' target="_blank">
+                        <img src="assets/new-icon.png" alt="My LinkedIn Profile" id="new-icon">
+                    </a>
+                </div>
+            </div>
+
+        <!--track list-->
+        <div class="track-list">
+            <!-- Track 1 -->
+            <article class="track">
+                <!-- Header for tracklist -->
+                <div class="art"><img src="https://picsum.photos/seed/beat1/200" alt=""></div>
+
+                <div class="main">
+                    <div class="title-row">
+                        <button class="play" aria-label="Play">
+                            <!-- play icon -->
+                        </button>
+                        <div class="title-wrap">
+                            <div class="title">Forsaken Place</div>
+                            <div class="genre">Hip Hop</div>
+                            <button>
+                                <span class="contact-button"> Contact </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Track 2 -->
+            <article class="track">
+                <div class="art"><img src="https://picsum.photos/seed/beat1/200" alt=""></div>
+
+                <div class="main">
+                    <div class="title-row">
+                        <button class="play" aria-label="Play">
+                            <!-- play icon -->
+                        </button>
+                        <div class="title-wrap">
+                            <div class="title">Forsaken Place</div>
+                            <div class="genre">Hip Hop</div>
+                            <button>
+                                <span class="contact-button"> Contact </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Track 3 -->
+            <article class="track">
+                <div class="art"><img src="https://picsum.photos/seed/beat1/200" alt=""></div>
+
+                <div class="main">
+                    <div class="title-row">
+                        <button class="play" aria-label="Play">
+                            <!-- play icon -->
+                        </button>
+                        <div class="title-wrap">
+                            <div class="title">Forsaken Place</div>
+                            <div class="genre">Hip Hop</div>
+                            <button>
+                                <span class="contact-button"> Contact </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Track 4 -->
+            <article class="track">
+                <div class="art"><img src="https://picsum.photos/seed/beat1/200" alt=""></div>
+
+                <div class="main">
+                    <div class="title-row">
+                        <button class="play" aria-label="Play">
+                            <!-- play icon -->
+                        </button>
+                        <div class="title-wrap">
+                            <div class="title">Forsaken Place</div>
+                            <div class="genre">Hip Hop</div>
+                            <button>
+                                <span class="contact-button"> Contact </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Track 5 -->
+            <article class="track">
+                <div class="art"><img src="https://picsum.photos/seed/beat1/200" alt=""></div>
+
+                <div class="main">
+                    <div class="title-row">
+                        <button class="play" aria-label="Play">
+                            <!-- play icon -->
+                        </button>
+                        <div class="title-wrap">
+                            <div class="title">Forsaken Place</div>
+                            <div class="genre">Hip Hop</div>
+                            <button>
+                                <span class="contact-button"> Contact </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Track 6 -->
+            <article class="track">
+                <div class="art"><img src="https://picsum.photos/seed/beat1/200" alt=""></div>
+
+                <div class="main">
+                    <div class="title-row">
+                        <button class="play" aria-label="Play">
+                            <!-- play icon -->
+                        </button>
+                        <div class="title-wrap">
+                            <div class="title">Forsaken Place</div>
+                            <div class="genre">Hip Hop</div>
+                            <button>
+                                <span class="contact-button"> Contact </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!--Collabrotaor-->
+<section id="collaborators-section">
+    <div class="marquee">
+        <div class="marquee_header">Collaborators</div>
+        <div class="marquee__inner">
+            <div class="marquee__group">
+
+                <a class="item-collabs" href="https://x.com/ZadehRaso" target="_blank" rel="noopener">
+                    <h2 class="item-title">Young Thug</h2>
+                    <p>click me, to listen!</p>
+                </a>
+
+                <a class="item-collabs" href="https://x.com/ZadehRaso" target="_blank" rel="noopener">
+                    <h2 class="item-title">Young Thug</h2>
+                    <p>click me, to listen!</p>
+                </a>
+
+                <a class="item-collabs" href="https://x.com/ZadehRaso" target="_blank" rel="noopener">
+                    <h2 class="item-title">Young Thug</h2>
+                    <p>click me, to listen!</p>
+                </a>
+
+                <a class="item-collabs" href="https://x.com/ZadehRaso" target="_blank" rel="noopener">
+                    <h2 class="item-title">Young Thug</h2>
+                    <p>click me, to listen!</p>
+                </a>
+
+                <a class="item-collabs" href="https://x.com/ZadehRaso" target="_blank" rel="noopener">
+                    <h2 class="item-title">Young Thug</h2>
+                    <p>click me, to listen!</p>
+                </a>
+            </div>
+
+            <div class="marquee__group">
+
+                <a class="item-collabs" href="https://x.com/ZadehRaso" target="_blank" rel="noopener">
+                    <h2 class="item-title">Name of artist</h2>
+                    <p>click me, to listen!</p>
+                </a>
+
+                <a class="item-collabs" href="https://x.com/ZadehRaso" target="_blank" rel="noopener">
+                    <h2 class="item-title">Name of artist</h2>
+                    <p>click me, to listen!</p>
+                </a>
+
+                <a class="item-collabs" href="https://x.com/ZadehRaso" target="_blank" rel="noopener">
+                    <h2 class="item-title">Name of artist</h2>
+                    <p>click me, to listen!</p>
+                </a>
+
+                <a class="item-collabs" href="https://x.com/ZadehRaso" target="_blank" rel="noopener">
+                    <h2 class="item-title">Name of artist</h2>
+                    <p>click me, to listen!</p>
+                </a>
+
+                <a class="item-collabs" href="https://x.com/ZadehRaso" target="_blank" rel="noopener">
+                    <h2 class="item-title">Name of artist</h2>
+                    <p>click me, to listen!</p>
+                </a>
+            </div>
+
+            <div class="marquee__group">
+
+                <a class="item-collabs" href="https://x.com/ZadehRaso" target="_blank" rel="noopener">
+                    <h2 class="item-title">Name of artist</h2>
+                    <p>click me, to listen!</p>
+                </a>
+
+                <a class="item-collabs" href="https://x.com/ZadehRaso" target="_blank" rel="noopener">
+                    <h2 class="item-title">Name of artist</h2>
+                    <p>click me, to listen!</p>
+                </a>
+
+                <a class="item-collabs" href="https://x.com/ZadehRaso" target="_blank" rel="noopener">
+                    <h2 class="item-title">Name of artist</h2>
+                    <p>click me, to listen!</p>
+                </a>
+
+                <a class="item-collabs" href="https://x.com/ZadehRaso" target="_blank" rel="noopener">
+                    <h2 class="item-title">Name of artist</h2>
+                    <p>click me, to listen!</p>
+                </a>
+
+                <a class="item-collabs" href="https://x.com/ZadehRaso" target="_blank" rel="noopener">
+                    <h2 class="item-title">Name of artist</h2>
+                    <p>click me, to listen!</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Contact Section-->
+<section></section>
+<script src="index.js"></script>
 </body>
 </html>
